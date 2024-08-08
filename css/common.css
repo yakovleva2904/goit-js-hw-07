@@ -104,7 +104,7 @@ input {
   border-radius: 4px;
 }
 
-button {
+form button {
   margin-top: 16px;
   border-radius: 8px;
   border: none;
@@ -119,4 +119,25 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+}
+
+/* task 5 */
+
+.widget {
+  text-align: center;
+}
+
+.color {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+
+.change-color {
+  width: 148px;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 8px;
+  background: #4E75FF;;
 }
