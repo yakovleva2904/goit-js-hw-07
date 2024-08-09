@@ -142,3 +142,54 @@ form button {
   background: #4E75FF;
   border: none;
 }
+
+/* task 6 */
+
+#controls {
+  display: flex;
+  gap: 16px;
+  padding: 32px;
+
+  & button {
+    width: 120px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    opacity: 0px;
+    color: #FFFFFF;
+  }
+}
+
+#boxes {
+  display: flex;
+  gap: 44px;
+  padding: 32px;
+}
+
+input[type="number"] {
+  width: 150px;
+  height: 40px;
+  padding: 8px 72px 8px 72px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px;
+  border: 1px solid #808080;
+  outline: none;
+  display: block;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  margin-top: 0;
+  margin-right: -70px;
+}
+
+[data-create] {
+  background: #4E75FF;
+}
+
+[data-destroy] {
+  background: #FF4E4E;
+}
