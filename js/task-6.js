@@ -38,5 +38,6 @@ function createHandler() {
 		alert(
 			`Input value can not be ${input.value}. Set a number between 1 and 100`,
 		);
+		input.value = null;
 	}
 }
