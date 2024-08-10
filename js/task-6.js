@@ -13,11 +13,11 @@ destroyBtn.addEventListener("click", destroyHandler);
 createBtn.addEventListener("click", createHandler);
 
 function createBoxes(amount) {
-	amount = Number(amount);
+	const sumEl = Number(amount);
 	destroyHandler();
 	let size = 30;
 	const arr = [];
-	for (let i = 0; i < amount; i++) {
+	for (let i = 0; i < sumEl; i++) {
 		arr.push(
 			`<div style="height:${size}px;width:${size}px;background-color:${getRandomHexColor()}"></div>`,
 		);
